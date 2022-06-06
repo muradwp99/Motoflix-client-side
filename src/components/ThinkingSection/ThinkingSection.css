@@ -1,0 +1,108 @@
+.thinking-container {
+    background-color: #273f44;
+    color: white;
+}
+
+.thinking {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.thinking h1 {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.thinking p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+.about-btn {
+    margin-top: 20px;
+    background-color: #ffbf00;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: #1d2f32;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:576px) {
+    .thinking {
+        display: block;
+        width: 100%;
+        padding: 40px 50px;
+    }
+
+    .sub-inquiry {
+        display: block !important;
+    }
+
+    .information {
+        margin-top: 20px;
+    }
+}
+
+.about-btn:hover {
+    background-color: #ffbf00;
+}
+
+.inquiry-section {
+    background-color: #ffbf00;
+}
+
+.sub-inquiry {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.have-ques h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #273f44;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.information p {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #273f44;
+}
+
+.information button {
+    background-color: transparent;
+    padding: 10px 16px 10px 16px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-weight: 500;
+    color: #273f44 !important;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.information button:hover {
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}

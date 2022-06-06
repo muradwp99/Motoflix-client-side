@@ -1,0 +1,8 @@
+.slide-img {
+    height: 85vh;
+    object-fit: cover;
+}
+
+.carousel-banner {
+    margin-top: -5px;
+}

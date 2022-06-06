@@ -1,0 +1,61 @@
+.point-div {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.point-div h2 {
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: #273f44;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    gap: 50px;
+}
+
+@media only screen and (max-width:576px) {
+    .list-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.individual-features {
+    display: flex;
+    align-items: start;
+
+
+
+}
+
+.individual-features h3 {
+    font-size: 18px;
+    color: #273f44 !important;
+    letter-spacing: -.5px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.individual-features p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.choose-icon {
+    font-size: 25px;
+    color: #ffffff;
+    margin-right: 20px;
+    background-color: #ffbf00;
+    padding: 15px;
+    border-radius: 50px;
+
+
+}
